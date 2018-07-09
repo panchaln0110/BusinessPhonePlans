@@ -7,16 +7,7 @@ H5: 14 Lato
 H6: 12 Lato
 */
 
-article,
-aside,
-dialog,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-f section {
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, section{
     overflow-x: hidden;
 }
 
@@ -24,7 +15,10 @@ f section {
     width: 40%;
 }
 .w-30{
-    width: 35%;
+    width: 40%;
+}
+.w-700{
+    width: 700px;
 }
 
 .wdt-60 {
@@ -78,6 +72,9 @@ f section {
     right: auto;
     bottom: 0px;
     left: auto;
+}
+.carousel-caption1{
+    margin: 0 auto;
 }
 
 .mt-30 {
@@ -153,6 +150,10 @@ f section {
 }
 .acn-sup-size {
     font-size: 7px;
+    top: -12px;
+}
+.acn-sup-sizee{
+    font-size: 24px;
     top: -12px;
 }
 
@@ -426,6 +427,7 @@ h6 {
 
 
 p {
+    font-family: Lato;
     font-size: 16px;
 }
 
@@ -440,6 +442,9 @@ h6 {
 body {
     /*    background-color: rgb(0,40,85);*/
     /*    margin: auto;*/
+}
+.d-Tnone{
+    display: none;
 }
 
 header {
@@ -563,6 +568,11 @@ button.btn.btn-secondary.dropdown-toggle{
 #l-banner-HP {
     height: 100%;
     background: url(../images/Home_Phone_Mobile.png) center;
+    background-size: cover;
+}
+#l-banner-BP{
+    height: 100%;
+    background: url(../images/Business_Phone_Mobile.png) center;
     background-size: cover;
 }
 #l-banner-Bwireless{
@@ -1001,6 +1011,11 @@ div.col-sm-2.col-6 {
         background: url(../images/homephoneplans.png) center;
         background-size: cover;
     }
+    #l-banner-BP{
+        height: 100%;
+        background: url(../images/Business_Phone_Desktop.png) center;
+        background-size: cover;
+    }
     #l-banner-SAB{
         height: 100%;
         background: url(../images/SA_desktop.png) center;
@@ -1136,6 +1151,12 @@ div.col-sm-2.col-6 {
     }
     
 */
+    .d-Tblock{
+        display: none;
+    }
+    .d-Tnone{
+    display: block;
+}
     .w-hpb-h1 {
         max-width: 315px;
     }
@@ -1230,6 +1251,11 @@ div.col-sm-2.col-6 {
     #l-banner-Bwireless{
         height: 100%;
         background: url(../images/Bwireless_tablet.png) center;
+        background-size: cover;
+    }
+    #l-banner-BP{
+        height: 100%;
+        background: url(../images/business_phone_tablet.png) center;
         background-size: cover;
     }
 
@@ -1367,6 +1393,12 @@ div.col-sm-2.col-6 {
     .wdta-60{
         width: 60!important%;
     }
+    .w-700{
+        width: 100%;
+    }
+    .mt-20{
+        margin-top: 20px;
+    }
     
     .imgmt-40 {
         margin-top: 40px;
@@ -1441,6 +1473,11 @@ div.col-sm-2.col-6 {
     #l-banner-Bwireless{
         height: 100%;
         background: url(../images/Bwireless_mobile.png) center;
+        background-size: cover;
+    }
+    #l-banner-BP{
+        height: 100%;
+        background: url(../images/Business_Phone_Mobile.png) center;
         background-size: cover;
     }
     #l-banner-PP{
